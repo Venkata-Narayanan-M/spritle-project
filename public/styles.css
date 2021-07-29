@@ -1,0 +1,45 @@
+/* Common CSS */
+
+body {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+}
+
+.bordered {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.App {
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+/* Header section */
+.header-container {
+  text-align: center;
+}
+
+/* Data Entry section */
+.data-container {
+  text-align: center;
+  width: 75%;
+  padding: 1rem;
+}
+
+.amount-input {
+  width: 50%;
+  margin: auto;
+}
+
+/* Transaction section */
+.txn-container {
+  width: 75%;
+  padding: 1.5rem;
+}
+
+.txn-text {
+  font-weight: bold;
+}
